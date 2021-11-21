@@ -14,7 +14,7 @@ public class Application implements CommandLineRunner {
 	public static final Logger logger = LoggerFactory.getLogger(Application.class);
 
 	public static void main(String[] args) {
-		logger.info("its a continous integration job")
+		logger.info("its a continous integration job");
 		SpringApplication.run(Application.class, args);
 	}
 
